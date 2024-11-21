@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CALCULATRICE 2024</title>
+    <link rel="stylesheet" href="Styles/cStyle.css">
+</head>
+<body id="body">
+    <div class="title"><span class="h1">La GCEP-Calc</span></div>
+    <div class="container">
+       <div class="row_1">
+        <div class="row">
+            <div class="display">
+                <textarea readonly name="textarea" id="screen"></textarea>
+            </div>
+            <div class="btn_container">
+                
+                <span onclick= "Delete()">C</span>
+                <span onclick= "Fordisplay('/')" >/</span>
+                <span onclick= "Fordisplay('7')" >7</span>
+                <span onclick= "Fordisplay('8')" >8</span>
+                <span onclick= "Fordisplay('9')" >9</span>
+                <span onclick= "Fordisplay('*')" >x</span>
+                <span onclick= "Fordisplay('4')" >4</span>
+                <span onclick= "Fordisplay('5')" >5</span>
+                <span onclick= "Fordisplay('6')" >6</span>
+                <span onclick= "Fordisplay('-')" >-</span>
+                <span onclick= "Fordisplay('1')" >1</span>
+                <span onclick= "Fordisplay('2')" >2</span>
+                <span onclick= "Fordisplay('3')" >3</span>
+                <span onclick= "Fordisplay('+')" >+</span>
+                <span onclick= "Fordisplay('0')" >0</span>
+                <span onclick= "Fordisplay('.')" >.</span>
+                <!-- <span onclick= "Reback()" ><--</span> -->
+                <span onclick= "Result()" >=</span>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!-- ******** TYPESCRIPT *********** -->
+    <script src="ts_built/Cmain.js"></script>
+</body>
+</html>

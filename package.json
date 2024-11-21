@@ -1,0 +1,11 @@
+{
+    "name": "calco",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "live-server"
+    },
+    "dependencies": {
+        "calco": "file:",
+        "live-server": "^1.2.2"
+    }
+}
