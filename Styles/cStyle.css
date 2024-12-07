@@ -146,14 +146,14 @@
         color: #fff;
         font-weight: 600;
         font-size: 25px;
-        grid-column: span 2;
+        grid-column: span 1;
         width: 100%;
         transition: 1s;
     }
     .btn_container span:last-child:hover{
     }
     .btn_container span:nth-child(1){
-        grid-column: span 3;
+        grid-column: span 2;
         background: #fcdc73;
         background: #fbac08;
         width: 100%;
@@ -186,6 +186,15 @@
     /* *** + ***  */
     .btn_container span:nth-child(16){
         font-size: 25px; 
+    }
+    .btn_container span:nth-child(16){
+        grid-column: span 2;
+        width: 100%;
+        background-color: orangered;
+    }
+    .btn_container span:nth-child(16) a{
+        text-decoration: none;
+        color: #000;
     }
 
 
